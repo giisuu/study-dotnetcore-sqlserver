@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.28010.2019
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "study-dotnetcore", "study-dotnetcore\study-dotnetcore.csproj", "{85BD20CB-9EC9-4F95-ADFE-E7379229C3FD}"
 EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{E1971F02-61EE-4F89-A4F3-08B846374137}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "study-sqlserver", "study-sqlserver\study-sqlserver.sqlproj", "{EBEC4B15-384E-4478-A741-6FD4A0809501}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,16 @@ Global
 		{85BD20CB-9EC9-4F95-ADFE-E7379229C3FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{85BD20CB-9EC9-4F95-ADFE-E7379229C3FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{85BD20CB-9EC9-4F95-ADFE-E7379229C3FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1971F02-61EE-4F89-A4F3-08B846374137}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1971F02-61EE-4F89-A4F3-08B846374137}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1971F02-61EE-4F89-A4F3-08B846374137}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1971F02-61EE-4F89-A4F3-08B846374137}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBEC4B15-384E-4478-A741-6FD4A0809501}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBEC4B15-384E-4478-A741-6FD4A0809501}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBEC4B15-384E-4478-A741-6FD4A0809501}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{EBEC4B15-384E-4478-A741-6FD4A0809501}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBEC4B15-384E-4478-A741-6FD4A0809501}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBEC4B15-384E-4478-A741-6FD4A0809501}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

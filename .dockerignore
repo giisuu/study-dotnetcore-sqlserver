@@ -4,6 +4,10 @@
 .gitignore
 .vs
 .vscode
+docker-compose.yml
+docker-compose.*.yml
 */bin
 */obj
-**/.toolstarget
+study-sqlserver/mssql
+*/*.dbmdl
+*/*.jfm

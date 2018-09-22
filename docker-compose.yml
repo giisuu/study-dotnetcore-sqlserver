@@ -1,0 +1,19 @@
+version: '3.4'
+
+services:
+  study-dotnetcore:
+    container_name: study-dotnetcore
+    image: ${DOCKER_REGISTRY}study-dotnetcore
+    build:
+      context: .
+#      dockerfile: study-dotnetcore/Docker/Dockerfile
+      dockerfile: study-dotnetcore/Dockerfile
+    depends_on:
+      - study-sqlserver
+
+  study-sqlserver:
+    container_name: study-sqlserver
+    image: ${DOCKER_REGISTRY}study-sqlserver
+    build:
+      context: .
+      dockerfile: study-sqlserver/Docker/Dockerfile
