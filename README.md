@@ -15,5 +15,5 @@
 - [x] SQL Server 用のプロジェクトを追加
 - [x] .Net Core 用の Dockerfile と、SQL Server 用の Dockerfile を分離
 - [x] ここまでで起動することを確認(つながる DB は master)
-- [ ] テスト用の DB を構築する用の script を追加
-- [ ] テスト用の DB につながりつつアプリが起動することを確認
+- [x] テスト用の DB を構築する用の script を追加
+- [x] テスト用の DB につながりつつアプリが起動することを確認

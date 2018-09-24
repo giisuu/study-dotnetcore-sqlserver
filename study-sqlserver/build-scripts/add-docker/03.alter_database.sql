@@ -1,0 +1,7 @@
+USE testdb;
+
+ALTER DATABASE [testdb] SET READ_COMMITTED_SNAPSHOT ON;
+
+SELECT 'Alter Database'
+
+GO
